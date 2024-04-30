@@ -1,8 +1,8 @@
 # csv_reader
 
-using faker to make made up data
-simple usage of csv reader. 
-open file to show:
-Imię: 
-Nazwisko:
-Wiek: Data urodzenia i ile ma lat
+In this project I created CSV reader to get personal details of person.
+
+I created made up data using **faker**.
+You can make your own csv file using *make_fake_data()*.
+
+CSV reader display personal info like *name*, *last name* and *age* in terminal.

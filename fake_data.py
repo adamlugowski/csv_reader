@@ -3,6 +3,11 @@ import csv
 
 
 def make_fake_data(number_of_rows: int):
+    """
+    This function is responsible to create fake data.
+    :param number_of_rows: Number of rows
+    :return: CSV file
+    """
     fake = Faker()
     with open('names.csv', mode='w', newline='') as csvfile:
         fieldnames = ['first name', 'last name', 'date of birth']
